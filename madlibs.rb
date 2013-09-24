@@ -4,7 +4,7 @@ adjective = gets.chomp
 puts "Give me a noun"
 noun = gets.chomp
 
-puts "Give me a country (Ex: a place, country, or person"
+puts "Give me a country"
 country = gets.chomp
 
 puts "Tell your favorite food"
@@ -34,11 +34,12 @@ verb = gets.chomp
 puts "Give your twitter handle?"
 twitter = gets.chomp
 
-puts "You are in" + country + " eating " +food + " with " + singer + "driving a " + 
-car + " wearing a " + adjective + cloth + " on a " + color + noun + 
-" and then you both watch " + tvshow + " while also doing your " + subject +
- " homework"
-"You can be followed at " + twitter
+puts "You are in #{country} eating #{food} with  #{singer} while driving a + 
+#{car} wearing a #{adjective} #{color}  #{cloth}  and your also somehow carrying a
+ #{noun} and then you both go home and  watch  #{tvshow} while 
+also doing your #{subject} homework"
+
+puts "You can be followed at #{twitter}"
 
 puts "Thanks for playing along! I hope you enjoy your creation:"
 
